@@ -1,0 +1,182 @@
+@media (max-height: 769px) {
+	.side-page .container {
+		max-width: 720px;
+	}
+	.twitter-container {
+		top: 50px;
+		/*left: 25px; edited by stark */
+	}
+	.sound_button {
+		top: 50px;
+		right: 50px;
+	}
+	.social-container {
+		bottom: 25px;
+		right: 25px;
+	}
+	.main-menu-container {
+		bottom: 25px;
+		left: 25px;
+	}
+	#time-container {
+		height: 450px;
+		width: 450px;
+	}
+}
+
+@media (min-width: 950px) and (max-width: 1099px) {
+	.side-page .container {
+		max-width: 720px;
+	}
+	.twitter-container {
+		top: 50px;
+		/*left: 25px; edited by stark */
+	}
+	.social-container {
+		bottom: 25px;
+		right: 25px;
+	}
+	.main-menu-container {
+		bottom: 25px;
+		left: 25px;
+	}
+	#time-container {
+		height: 450px;
+		width: 450px;
+	}
+	/*.clock-number {
+		font-size: 250%;
+	}*/
+}
+
+@media (min-width: 730px) and (max-width: 949px) {
+	.side-page .container {
+		max-width: 600px;
+	}
+	.close {
+		right: 13%;
+	}
+	.twitter-container {
+		top: 50px;
+		/*left: 25px; edited by stark */
+	}
+	.social-container {
+		bottom: 25px;
+		right: 25px;
+	}
+	.main-menu-container {
+		bottom: 25px;
+		left: 25px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 730px) {
+	.side-page .container {
+		padding: 0 50px;
+	}
+	.close {
+		right: 13%;
+		top: 15%;
+	}
+	.mainarea h2 {
+		font-size: 54px;
+		margin: 0 0 27px;
+	}
+	.mainarea p {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.services li {
+		margin: 0px 15px;
+	}
+	.twitter-container {
+		top: 25px;
+		/*left: 25px; edited by stark */
+	}
+	.social-container {
+		bottom: 25px;
+		right: 25px;
+	}
+	.main-menu-container {
+		bottom: 25px;
+		left: 25px;
+	}
+	#time-container {
+		height: 450px;
+		width: 450px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#time-container-wrap {
+		padding-top: 10px;
+	}
+	.side-page .container {
+		padding: 0 50px;
+	}
+	.close {
+		right: 13%;
+		top: 15%;
+	}
+	.mainarea {
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.mainarea h2 {
+		font-size: 30px;
+		margin: 0 0 17px;
+	}
+	.mainarea h3 {
+		font-size: 22px;
+	}
+	.mainarea p {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.services {
+		margin-bottom: 20px;
+	}
+	.services li {
+		margin: 0px 5px 15px 5px;
+	}
+	.services li p {
+		font-size: 14px;
+	}
+	.twitter-container {
+		top: 15px;
+		/*left: 15px; */ /*left: 25px; edited by stark */
+		display: none;
+	}
+	.social-container {
+		bottom: 15px;
+		right: 15px;
+		display: none;
+	}
+	.main-menu-container {
+		top: 15px;
+		bottom: auto;
+		left: 15px;
+	}
+	.subscribe {
+		width: 290px;
+	}
+	.subscribe input[type="text"] {
+		width: 150px;
+	}
+	.subscribe input[type="submit"] {
+		padding: 0 10px;
+	}
+	#time-container {
+		height: 250px;
+		width:250px;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.main-menu-container {
+		top: 15px;
+		bottom: auto;
+		left: 15px;
+	}
+}
