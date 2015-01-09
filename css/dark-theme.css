@@ -1,0 +1,67 @@
+/*
+Project:	Ticker. Dark Color Scheme
+Version:	1.0
+Last change:	
+*/
+
+.mainarea h2,
+.mainarea h3,
+.mainarea p,
+.subscribe input[type="email"],
+.subscribe input[type="submit"],
+.subscribe .error,
+.success,
+.services li p,
+.contact-list input[type="text"],
+.contact-list input[type="submit"],
+.tweet_list li,
+.tweet_list li a,
+.main-menu li a,
+.main-menu li a:before,
+.contact-list input[type="email"],
+#time-container span {
+	color: #424242;
+}
+.twitter-container {
+	background: url("../img/twitter-bg-dark.png") no-repeat scroll left top;
+}
+.main-menu li a:before {
+	background-color: #424242;
+}
+.subscribe input[type="email"],
+.subscribe input[type="submit"] {
+	border-color: #424242;
+	background: none;
+}
+.contact-list input[type="text"],
+.contact-list input[type="submit"],
+.contact-list input[type="email"] {
+	border-color: #424242;
+}
+.mainarea p a {
+	color: #000;
+}
+.contact-list input[type="submit"]:hover {
+	border-color: #000;
+}
+
+.sound_button {
+	background-image: url(../img/volume_control_dark.png);
+}
+.error_block {
+	color: #424242;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color:    #424242;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #424242;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #424242;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:    #424242;
+}
