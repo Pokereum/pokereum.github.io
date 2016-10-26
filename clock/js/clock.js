@@ -94,7 +94,7 @@ $(document).ready(function() {
 		var opts={plate:"#FFFFFF",marks:"#FFFFFF",label:"#FFFFFF",hours:"#FFFFFF",minutes:"#FFFFFF",seconds:"#FFFFFF"};
 	}
 
-
+	if($('.clock-container').length)
 	SVG('canvas', '100%').clock('100%', '', opts).start();
 
 	var n = initNumbers();
@@ -136,4 +136,4 @@ $(document).ready(function() {
 	});
 	///////////////////////////////////////////////////////////////////////////////////////
 
-}); 
+});
