@@ -44,8 +44,8 @@
             		};
 
             		//Ajax post data to server
-            		jQuery.post('contacts.php', post_data, function(response){	
-            		    if(response.type == 'error'){ //load json data from server and output message    
+            		jQuery.post('contacts.php', post_data, function(response){
+            		    if(response.type == 'error'){ //load json data from server and output message
             		        output = '<div class="error_block">'+response.text+'</div>';
             		    } else{
             		        output = '<div class="success">'+response.text+'</div>';
@@ -59,9 +59,9 @@
         			post_data = {
             		    'subscribe_email': $('input[name=subscribe_email]').val(),
             		};
-	
-            		jQuery.post('subscribe.php', post_data, function(response){	
-	        	    	   
+
+            		jQuery.post('subscribe.php', post_data, function(response){
+
         		        output = '<div class="success">'+response.text+'</div>';
         		        //reset values in all input fields
         		        $("#contacts_form .form_item").val('');
@@ -143,7 +143,7 @@
 			easeOut : 'easeInBack'
 		});
 	});
-	
+
 	function resizeStuff() {
 		vertCenter($('.itemwrap > li > div'));
 		vertCenter($('#thumbs'));
@@ -177,7 +177,7 @@ function formValidation(form) {
 						error[$th.attr('id')] = 'not_email';
 					}
 				}
-			} else {				
+			} else {
 				error[$th.attr('id')] = 'empty';
 			}
 
