@@ -116,6 +116,15 @@
 
 		$('input[type="text"]').clearDefault();
 
+		$(function () {
+			$("a.youtube").YouTubePopup({
+				youtubeId: '0vIjZc82yuE',
+				autoplay: 1 ,
+				'useYouTubeTitle': true,
+				'fullscreen': 1,
+				'overlayOpacity':0.7,
+			});
+		});
 
 		$('#tweet_list').cycle({
 			fx : 'custom',
