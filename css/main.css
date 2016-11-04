@@ -140,6 +140,35 @@ textarea {
    ========================================================================== */
 
 
+ .sleek-button{
+
+     display: inline-block;
+     height: 40px;
+     line-height: 40px;
+     padding: 0 28px;
+     font-weight: 300;
+     border: 1px solid #cdcfd0;
+     background: rgba(255, 255, 255, 0.09);
+     font-size: 14px;
+     font-family: 'Exo 2', sans-serif;
+     text-transform: uppercase;
+     color: #fffefe;
+     cursor:pointer;
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
+ }
+
+ .sleek-button.left{
+   border-right: 0;
+}
+
+.sleek-button.center{
+  border-right: 0;
+  border-left: 0;
+}
+
+.sleek-button.right{
+  border-left: 0;
+}
 
 
 body {
