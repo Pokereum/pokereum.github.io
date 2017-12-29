@@ -170,6 +170,10 @@ textarea {
   border-left: 0;
 }
 
+.highlight{
+  background: rgba(255,215,0,0.7);
+}
+
 
 body {
 	background: url('../img/bg/bg1.jpg') no-repeat center center fixed;
